@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Function prototypes */
+/*  Function prototypes */
 int add(int, int);
 int sub(int, int);
 int mul(int, int);
@@ -32,8 +32,6 @@ int main() {
         default:
             printf("Invalid choice\n");
     }
-
-
     return 0;
 }
 
