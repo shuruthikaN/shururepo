@@ -5,14 +5,16 @@ int add(int, int);
 int sub(int, int);
 int mul(int, int);
 int div(int, int);
+float addfloat(float,float);
 
 int main() {
-    int a, b, choice;
+    float a, b;
+    int choice;
 
     printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
+    scanf("%f %f", &a, &b);
 
-    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\n");
+    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\n5.addfloat\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
@@ -29,6 +31,9 @@ int main() {
         case 4:
             printf("Result = %d\n", div(a, b));
             break;
+	case 5:
+	    printf("Result =%f\n",addfloat(a,b));
+	    break;
         default:
             printf("Invalid choice\n");
     }
