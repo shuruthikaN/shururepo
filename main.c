@@ -6,15 +6,15 @@ int sub(int, int);
 int mul(int, int);
 int div(int, int);
 float addfloat(float,float);
-
+float subf(float,float);
 int main() {
     float a, b;
-    int choice;
+    int	choice;
 
     printf("Enter two numbers: ");
     scanf("%f %f", &a, &b);
 
-    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\n5.addfloat\n");
+    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\n5.addfloat\n6.subf\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
@@ -33,6 +33,8 @@ int main() {
             break;
 	case 5:
 	    printf("Result =%f\n",addfloat(a,b));
+        case 6:
+	    printf("Result = %f\n",subf(a,b));
 	    break;
         default:
             printf("Invalid choice\n");
