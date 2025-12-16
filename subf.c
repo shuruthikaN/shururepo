@@ -1,3 +1,3 @@
-float subf(float a,floatb){
+float subf(float a,float b){
 	return a-b;
 }
