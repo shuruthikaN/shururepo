@@ -7,6 +7,7 @@ int mul(int, int);
 int div(int, int);
 float addfloat(float,float);
 float subf(float,float);
+/*float division added*/
 float divf(float,float);
 float mulf(float,float);
 
