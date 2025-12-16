@@ -7,7 +7,7 @@ int mul(int, int);
 int div(int, int);
 float subf(float,float);
 int main() {
-float a, b,
+    float a, b;
     int	choice;
 
     printf("Enter two numbers: ");
